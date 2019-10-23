@@ -18,7 +18,7 @@ First, what is a method?
      public static void run() {
          //this method does not return any kind of variable. 
      }
-     public static void eat (String food) {
+     public void eat (String food) {
          this.food = food; 
          //this assigns the public variable, assigned just under public class Dog, to the local variable, String food, which is assigned in the method. 
          //It doesn't return anything.
